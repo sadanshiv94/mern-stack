@@ -1,0 +1,8 @@
+Command for Git :  
+1) git --version-------------------------for version
+2) git status----------------------------for status   //Your folder status like stored file
+3) git init--------------------------------for initialization
+4) touch sample.txt-----------------To create new file with name and extension  (sample.txt this name of file with ext.)  (at untracked area)
+5) start sample.txt-------------------To open the file (but it becomes modified that means again in untracked file)
+6) git add sample.txt----------------To add the file in staged area
+7) git add .		------------------To add multiple file in staged area
