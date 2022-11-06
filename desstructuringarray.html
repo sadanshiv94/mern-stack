@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring Array & object</title>
+</head>
+<body>
+    <script>
+  document.write("Destructuring the ARRAY AND OBJECTS"+"<br>")
+  document.write("<br>")
+
+
+//Destructuring the ARRAY
+//The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+
+            let user = ["vikas sadanshiv ",29 ,"Akola ",["Male ",89000]];
+
+            let [name,age=28,city,[gender,salary]]= user;
+
+            document.write(name ,age ,city ,gender ,salary );
+
+
+document.write("<br>")
+document.write("<br>")
+
+//Destructuring the Objects
+
+
+            let user1 = {
+            name:"vikas sadanshiv ",
+            age: 29 ,
+            city:"Akola "
+            };
+
+            let {name:n, age:a, city:c}= user1
+            document.write(n,a,c);
+
+        
+document.write("<br>")
+document.write("<br>")
+
+
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map filter reduce</title>
+</head>
+<body>
+    <script>
+       // map(); filter(); reduce();  ::-
+
+
+//This is the array.prototype.map() method
+//The map method creates a new array populated with results of calling a provided function on every elemtns in the calling array.
+//Ex.1
+            var brothers = [
+            {fname: "Bahvesh",lname:"Sadanshiv"},
+            {fname: "Vikky",lname:"Sadanshiv"},
+            {fname: "Vikas",lname:"Sadanshiv"}
+            ];
+
+            var z = brothers.map(john);
+            document.write(z+"<br>");
+
+            function john(x){
+            return "<br>"+x.fname+ " " +x.lname
+            }
+
+document.write("<br>")
+document.write("<br>")
+
+            var ary = [2,4,6,5,8,9]
+            z= ary.map(test);
+            document.write(z+"<br>")  
+            function test (x){
+            return x * 4
+            }
+
+
+//This is the example of reduce method()
+//reduce() method is return the sum of all elements in an array (& We can perform any operation)
+
+            arr6 = [16,2,4]
+
+            let add = arr6.reduce((a1,a2) => {
+            return a1+a2
+            })
+            document.write(add+"<br>");
+
+document.write("<br>")
+document.write("<br>")
+    </script>
+</body>
+</html>

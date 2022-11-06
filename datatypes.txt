@@ -1,0 +1,63 @@
+New Data types::- Symbol();
+
+1) var x = "Hello World";                                             -------------------------string data types
+
+2) var x = 22;					  	      ----------------------number data types
+
+3) var x = True					      ----------------------Boolean data types
+
+4) var x = ["HTML",''JAVASCRIPT","XML"]	       -------------------------array data types	...................But if we are check by using typeOf then show the objects. It takes object to  array 
+
+5) var x = {fname:'vikas', lname:'sadanshiv'}	       ------------------------object data types
+
+6) var x = null					       ---------------------------null data types
+
+7) var x ;						        ------------------undefined data types
+
+8) var x = Symbol();				 	       ----------------------symbol data types				.................symbol use for the unique value representation
+
+
+// Symbol ();
+//This method symbol represent the unique value.
+
+
+
+//Ex.1
+            let age1 = Symbol("age of vikas")    
+
+            let symbol = {
+            fname: "Vikas",
+            lname: "Sadanshiv"
+            }
+            symbol[age1] = 29;
+
+            console.log(symbol);
+
+document.write("<br>")
+document.write("<br>")
+
+//Ex.2
+
+            let salary2 = Symbol("Salary");
+
+            let Emp1 = {
+            fname: "swapnil",
+            lname: "khandare"
+            }
+            Emp1[salary2] = 13800;
+
+            console.log(Emp1);
+
+
+document.write("<br>")
+document.write("<br>")
+
+//Ex.3            
+
+            let another = Symbol("Bro")
+            let raj = ['Vikas','Viki','Bhavesh','sujit']
+
+            raj[another] = "Aman";
+
+            console.log(raj);
+            
